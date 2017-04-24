@@ -10,3 +10,5 @@ getRandomElement(){
     // some logic.
 }
 ```
+
+원격저장소에서 readme.md 파일 변경
