@@ -10,3 +10,15 @@ getRandomElement(){
     // some logic.
 }
 ```
+
+## Practical Git: Sync local and remote repos with git pull
+
+`git pull`을 활용하면 프로젝트의 원격저장소에서 최신 변경사항을 가져와서 로컬 코드와 병합(결합)할 수 있다. 
+이 강의에서는 `git pull`을 사용하여 `git fetch와 git merge`를 실행하는 방법을 알려드립니다.
+
+`git pull`은 `git fetch`와 `git merge`를 동시에 실행하는 명령어이다. 
+
+
+
+- `git fetch` : 원격 저장소의 최신 변경 사항을 가져와서 로컬에 저장하지만 실제로는 해당 local code에 포함시키지는 않는다.
+- `git merge` : 이 명령어는 `git fetch`에서 얻은 변경 사항을 실제 코드로 병합하도록 로컬 저장소에 지시한다.
