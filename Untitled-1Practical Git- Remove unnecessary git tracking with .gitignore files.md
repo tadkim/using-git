@@ -16,8 +16,11 @@ rm -rf .git/
 git init
 ls -a
 
-// github remote repo 연결하기
+// github remote repo 추가하기 (현재 local dir과)
 git remote add origin https://github.com/stuckyi/usingGit.git 
+
+// github 연결된 remote repo 제거하기 
+git remote remove <저장소별칭>
 
 // remote repo 확인
 git remote -v
