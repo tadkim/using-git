@@ -34,5 +34,18 @@ getRandomElement(){
 git branch new-feature
 git branch
 
+```
 
+##  Practical Git: Sync branches with git merge
+
+여기서는 feature branch를 만들고 이것을다시 master branch에 결합하는 방법에 대한 작업흐름을 살펴본다.
+
+
+
+```
+function getURLSlug(words) {
+    return words
+        .replace(/\s+/g, '-')
+        .toLowerCase();
+}
 ```
